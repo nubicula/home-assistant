@@ -1,7 +1,7 @@
 {
-  "name": "Hey Ada!",
-  "version": "1.1",
-  "slug": "ada",
+  "name": "Hey Ada 2!",
+  "version": "2.0",
+  "slug": "ada2",
   "description": "Voice assistant powered by Home Assistant",
   "url": "https://github.com/nubicula/ada",
   "arch": ["armhf", "armv7", "amd64"],
@@ -18,5 +18,5 @@
     "stt": "str",
     "tts": "str"
   },
-  "image": "homeassistant/{arch}-addon-ada"
+  "image": "homeassistant/{arch}-addon-ada2"
 }
