@@ -1,0 +1,22 @@
+{
+  "name": "Hey Ada!",
+  "version": "1.0",
+  "slug": "ada",
+  "description": "Voice assistant powered by Home Assistant",
+  "url": "https://github.com/nubicula/ada/blob/master/ada",
+  "arch": ["armhf", "armv7", "amd64"],
+  "startup": "application",
+  "boot": "auto",
+  "audio": true,
+  "homeassistant": "0.102.0.dev",
+  "homeassistant_api": true,
+  "options": {
+    "stt": "cloud",
+    "tts": "cloud"
+  },
+  "schema": {
+    "stt": "str",
+    "tts": "str"
+  },
+  "image": "homeassistant/{arch}-addon-ada"
+}
